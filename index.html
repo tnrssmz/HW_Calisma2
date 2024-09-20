@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="card">
+            <h1 class="baslik yazirenk">Kayıt Formu</h1>
+            
+            <form action="./login.html" class="yazirenk yazifont yaziboyut">
+                <label for="isim">Adınız</label>
+                <input type="text" id="isim" class="kutucuk kutucukmargin" required>
+                <br>
+                <label for="soyisim">Soyadınız</label>
+                <input type="text" id="soyisim" class="kutucuk kutucukmargin" required>
+                <br>
+                <label for="eposta">E-mail adresiniz</label>
+                <input type="email" id="eposta" class="kutucuk kutucukmargin" required>
+                <br>
+                <label for="telefon">Telefon numaranız</label>
+                <input type="tel" id="telefon" class="kutucuk kutucukmargin" required>
+                <br>
+                <label for="sifre">Şifreniz</label>
+                <input type="password" id="sifre" class="kutucuk kutucukmargin" required>
+                <br>
+                <label for="sifretekrar">Şifre tekrarı</label>
+                <input type="password" id="sifretekrar" class="kutucuk kutucukmargin" required>
+                <br><br>
+                <label>Cinsiyetiniz</label>
+                <br>
+                <label for="erkek">Erkek</label>
+                <input type="radio" id="erkek" name="gender" class="radiomargin">
+                <label for="kadın">Kadın</label>
+                <input type="radio" id="kadın" name="gender" class="radiomargin">
+                <label for="ozel">Belirtmek istemiyorum</label>
+                <input type="radio" id="ozel" name="gender" class="kutucukmargin">
+
+                <br><br>
+
+                <label for="ulke">Ülke seçin</label>
+
+                    <select name="ulke" id="ulke" class="kutucuk yaziboyut kutucukmargin">
+                        <option value="turkiye" >Türkiye</option>
+                        <option value="italya">İtalya</option>
+                        <option value="ispanya">İspanya</option>
+                        <option value="yunanistan">Yunanistan</option>
+                    </select>
+                <br>
+                <label for="sehir">Şehir</label>
+                <input type="text" id="sehir" class="kutucuk kutucukmargin" required>
+                <br>
+                <label for="postakod">Posta kodu</label>
+                <input type="text" id="postakod" class="kutucuk kutucukmargin" required>
+                <br>
+                <label for="adresdetay">Adres detayı</label>
+                <br>
+                <textarea name="adresdetay" id="adresdetay" cols="30" rows="2" class="kutucuk kutucukmargin"></textarea>
+                <br>
+
+                <label for="dogum">Doğum tarihi</label>
+                <input type="date" id="dogum" class="kutucuk yaziboyut kutucukmargin" required>
+                <br><br>
+                <label>Hobileriniz</label>
+                <br>
+                <label for="hobi">Müzik</label>
+                <input type="checkbox" id="hobi" class="radiomargin">
+                <label for="hobi">Spor</label>
+                <input type="checkbox" id="hobi" class="radiomargin">
+                <label for="hobi">Resim</label>
+                <input type="checkbox" id="hobi" class="radiomargin">
+                <label for="hobi">Sinema</label>
+                <input type="checkbox" id="hobi" class="radiomargin">
+                <label for="hobi">Seyahat</label>
+                <input type="checkbox" id="hobi" class="radiomargin">
+                
+
+                <br>
+                <div id="buttondiv">
+                    <button type="submit">Gönder</button>
+                    <button type="reset">Sil</button>
+                </div>
+            </form>
+        
+        
+        
+        
+        
+        
+        </div>
+        
+
+    </div>
+</body>
+</html>
